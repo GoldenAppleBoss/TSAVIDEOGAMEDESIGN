@@ -1,0 +1,110 @@
+{
+  "Root": [
+    {
+      "NpcId": "1",
+      "NpcName": "Elder Marcus",
+      "DialogueLines": [
+        {
+          "Id": "1",
+          "Text": "Welcome, traveler. Our village has seen better days.",
+          "Choices": [
+            {
+              "Id": "1",
+              "Text": "What happened here?",
+              "NextDialogueId": "2"
+            },
+            {
+              "Id": "2",
+              "Text": "Can I help?",
+              "NextDialogueId": "3"
+            }
+          ]
+        },
+        {
+          "Id": "2",
+          "Text": "A dark rift opened nearby. Monsters have been attacking us ever since.",
+          "Choices": [
+            {
+              "Id": "1",
+              "Text": "I'll take care of it.",
+              "NextDialogueId": "4"
+            },
+            {
+              "Id": "2",
+              "Text": "Good luck with that.",
+              "NextDialogueId": "5"
+            }
+          ]
+        },
+        {
+          "Id": "3",
+          "Text": "We need someone to close the rift. Are you brave enough to try?",
+          "Choices": [
+            {
+              "Id": "1",
+              "Text": "Yes, I will do it.",
+              "NextDialogueId": "6"
+            },
+            {
+              "Id": "2",
+              "Text": "No, I'm not ready yet.",
+              "NextDialogueId": "7"
+            }
+          ]
+        },
+        {
+          "Id": "4",
+          "Text": "Thank you, brave soul. The village is counting on you.",
+          "Choices": []
+        },
+        {
+          "Id": "5",
+          "Text": "I hope your path remains safe. Farewell.",
+          "Choices": []
+        },
+        {
+          "Id": "6",
+          "Text": "Your courage gives us hope. May fortune be on your side.",
+          "Choices": []
+        },
+        {
+          "Id": "7",
+          "Text": "I see. Return when you're ready. We'll be waiting.",
+          "Choices": []
+        }
+      ]
+    },
+    {
+      "NpcId": "2",
+      "NpcName": "Blacksmith Taron",
+      "DialogueLines": [
+        {
+          "Id": "1",
+          "Text": "I see you're a warrior. My weapons could use a strong arm.",
+          "Choices": [
+            {
+              "Id": "1",
+              "Text": "What do you have for sale?",
+              "NextDialogueId": "2"
+            },
+            {
+              "Id": "2",
+              "Text": "I don't need anything right now.",
+              "NextDialogueId": "3"
+            }
+          ]
+        },
+        {
+          "Id": "2",
+          "Text": "Take a look at my stock. You won't find better quality anywhere.",
+          "Choices": []
+        },
+        {
+          "Id": "3",
+          "Text": "Very well. Let me know if you change your mind.",
+          "Choices": []
+        }
+      ]
+    }
+  ]
+}
